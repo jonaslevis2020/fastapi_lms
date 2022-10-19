@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-lms"
+version = "0.1.0"
+description = ""
+authors = ["Jonas Levis <41313961+jonaslevis2020@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_lms"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.18.3"
+fastapi = "^0.85.1"
+autopep8 = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
